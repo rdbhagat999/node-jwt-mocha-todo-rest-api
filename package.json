@@ -1,0 +1,30 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 2000 server/tests/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "hbs": "^4.0.1",
+    "jsonwebtoken": "^7.4.1",
+    "loadash": "0.0.1",
+    "mongoose": "^4.10.2",
+    "validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "crypto-js": "^3.1.9-1",
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2",
+    "rewire": "^2.5.2",
+    "supertest": "^3.0.0"
+  }
+}
