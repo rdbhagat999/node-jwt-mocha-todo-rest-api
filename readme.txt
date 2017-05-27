@@ -1,2 +1,18 @@
-"test1": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha tests/*.test.js",
-    "start": "node index.js",
+Technologies
+*************
+
+node js
+express js
+jsonwetokens
+lodash js
+mongoose js
+mongodb
+
+
+API TESTING
+************
+
+mocha
+expect 
+supertest
+google chrome: postman extension
